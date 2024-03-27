@@ -1,0 +1,27 @@
+@use "sass:color";
+@import '~normalize.css';
+@import 'style/fonts';
+@import 'style/var';
+@import 'style/mountain';
+
+@import "style/vars";
+@import "style/fns";
+@import "style/mixins";
+
+@import "style/utils/reset";
+@import "style/utils/colors";
+@import "style/utils/flex";
+@import "style/utils/font";
+@import "style/utils/sizing";
+@import "style/utils/spacing";
+@import "style/utils/utils";
+
+html {
+  font-size: $fs-base;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  line-height: 1.5;
+  color: $dark;
+}

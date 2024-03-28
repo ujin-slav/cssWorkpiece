@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>CSS Parallax Scrolling</title>
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, height=device-height, viewport-fit=cover, initial-scale=1" />
     <meta name="robots" content="noindex, nofollow" />
 </head>
@@ -33,17 +33,18 @@
 <div class="thirdBack">
 </div>
 
-<div class="w-full h-full d-flex gap-xxs">
-    <div class="w-2 h-4 bg-primary flex-center">
-      <p class="fs-xl color-success">box#1</p>
-    </div>
-    <div class="w-6 h-4 bg-success d-flex justify-end items-end">
-      <p class="pr-s fs-xl color-primary">box#2</p>
-    </div>
-    <div class="w-4 h-4 bg-danger d-flex items-end">
-      <p class="pl-s fs-xl color-gray300">box#3</p>
-    </div>
+<div class="container">
+  <div class="h-full d-flex gap-xxs">
+      <div class="w-4 h-4 bg-primary flex-center">
+        <p class="fs-xl color-success">box#1</p>
+      </div>
+      <div class="w-4 h-4 bg-success d-flex justify-end items-end">
+        <p class="pr-s fs-xl color-primary">box#2</p>
+      </div>
+      <div class="w-4 h-4 bg-danger d-flex  justify-center items-center rounded-5">
+        <p class="pl-s fs-xl color-gray300">box#3</p>
+      </div>
   </div>
-
+</div>
 </body>
 </html>
